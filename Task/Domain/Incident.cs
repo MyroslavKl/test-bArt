@@ -16,4 +16,8 @@ public class Incident
     public int AccountId { get; set; }
     [ForeignKey("AccountId")]
     public Account Account { get; set; } = null!;
+    
+    public Incident() {
+        IncidentName = Guid.NewGuid().ToString();
+    }
 }
