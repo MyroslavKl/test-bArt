@@ -6,18 +6,16 @@ namespace Domain;
 
 public class Incident
 {
-    [Key] 
+    [Key]
     public string IncidentName { get; set; }
 
-    [Required] 
-    public string Description { get; set; } = string.Empty;
-
     [Required]
-    public int AccountId { get; set; }
-    [ForeignKey("AccountId")]
-    public Account Account { get; set; } = null!;
+    public string Description { get; set; } = string.Empty;
     
-    public Incident() {
+    public ICollection<Account> Accounts { get; set; } = new List<Account>();
+
+    public Incident()
+    {
         IncidentName = Guid.NewGuid().ToString();
     }
 }

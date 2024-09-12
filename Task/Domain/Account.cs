@@ -1,13 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Domain.Base;
 
 namespace Domain;
 
-public class Account:BaseEntity
+public class Account : BaseEntity
 {
-    [Required] [StringLength(50)] 
+    [Required]
+    [StringLength(50)]
     public string Name { get; set; } = string.Empty;
-
+    
     public ICollection<Contact> Contacts { get; set; } = new List<Contact>();
-    public ICollection<Incident> Incidents { get; set; } = new List<Incident>();
+
+    public string IncidentName { get; set; } = string.Empty;
+    [ForeignKey("IncidentName")] 
+    public Incident Incident { get; set; } = null!;
 }
