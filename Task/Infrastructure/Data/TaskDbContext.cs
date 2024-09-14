@@ -23,6 +23,5 @@ public class TaskDbContext:DbContext
         modelBuilder.Entity<Contact>()
             .HasIndex(c => c.Email)
             .IsUnique();
-        
     }
 }
