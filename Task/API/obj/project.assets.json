@@ -2858,11 +2858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Myroslav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\API\\obj\\",
+      "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Myroslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2879,8 +2879,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -2889,11 +2889,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

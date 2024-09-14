@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+kxsweHcXKbnSy0/ampCu6lolah5OGGOgw+M/LsuFzF6XmGXQL1bpNfMNatUFe6EnRdtqC7HiYKNU8Pi2FMAQ==",
+  "dgSpecHash": "W5SyLk14HLpmZqjEqro9L6Hw5kc3mW4BFaK67gNwefjC8V7RRER0aIDI+6N5R1N1FuZ9uK+jEDzyObgjY6ryzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Myroslav\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Myroslav\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

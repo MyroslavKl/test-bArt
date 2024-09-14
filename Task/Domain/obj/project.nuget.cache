@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LkBm0MoTAWy4PsIHPV6QoLp+x9itaKNFXuVwYfZttVoilbq5SlFZEeuyJAzF1jcMAUTVKB6akYcbvIee2az7Rw==",
+  "dgSpecHash": "hFtzJ+QhveihRjhzNwvCpik/zbznrVFNuHcJS+Kt1KgX2WNYKa3woIw8rUsZX7lk7VaDcrhCm8x5vIzM3SkLCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

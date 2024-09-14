@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Application\\Application.csproj": {
+    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Myroslav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Myroslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Domain\\Domain.csproj"
+              "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Domain\\Domain.csproj"
               }
             }
           }
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Domain\\Domain.csproj": {
+    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Myroslav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Myroslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,11 +93,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -128,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Myroslav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Myroslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +142,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\Task\\Application\\Application.csproj"
+              "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Myroslav\\OneDrive\\Desktop\\bArt\\test-bArt\\Task\\Application\\Application.csproj"
               }
             }
           }
@@ -162,11 +152,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
