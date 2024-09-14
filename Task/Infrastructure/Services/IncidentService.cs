@@ -21,21 +21,21 @@ public class IncidentService:IIncidentService
         _accountRepository = accountRepository;
     }
     
-    public async Task CreateIncidentAsync(IncidentRequest _incidentRequest)
+    public async Task CreateIncidentAsync(IncidentRequest incidentRequest)
     {
-        var account = await _accountRepository.GetByAsync(obj=>obj.Name == _incidentRequest.AccountName);
+        var account = await _accountRepository.GetByAsync(obj=>obj.Name == incidentRequest.AccountName);
 
         if (account == null)
         {
             throw new NotFoundException("Account Not Found");
         }
 
-        var contact = await _contactRepository.GetByAsync(obj => obj.Email == _incidentRequest.ContactEmail);
+        var contact = await _contactRepository.GetByAsync(obj => obj.Email == incidentRequest.ContactEmail);
         
         if (contact != null)
         {
-            contact.FirstName = _incidentRequest.ContactFirstName;
-            contact.LastName = _incidentRequest.ContactLastName;
+            contact.FirstName = incidentRequest.ContactFirstName;
+            contact.LastName = incidentRequest.ContactLastName;
             
             if (contact.AccountId != account.Id)
             {
@@ -48,9 +48,9 @@ public class IncidentService:IIncidentService
         {
             contact = new Contact
             {
-                FirstName = _incidentRequest.ContactFirstName,
-                LastName = _incidentRequest.ContactLastName,
-                Email = _incidentRequest.ContactEmail,
+                FirstName = incidentRequest.ContactFirstName,
+                LastName = incidentRequest.ContactLastName,
+                Email = incidentRequest.ContactEmail,
                 AccountId = account.Id
             };
             await _contactRepository.AddAsync(contact);
@@ -59,7 +59,7 @@ public class IncidentService:IIncidentService
         
         var incident = new Incident()
         {
-            Description = _incidentRequest.IncidentDescription,
+            Description = incidentRequest.IncidentDescription,
             Accounts = new List<Account>
             {
                 account

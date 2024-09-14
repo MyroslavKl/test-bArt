@@ -4,5 +4,5 @@ namespace Application.Services;
 
 public interface IIncidentService
 {
-    Task CreateIncidentAsync(IncidentRequest _incidentRequest);
+    Task CreateIncidentAsync(IncidentRequest incidentRequest);
 }
