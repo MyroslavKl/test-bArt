@@ -23,6 +23,7 @@ public static class InfrastructureConfiguration
         services.AddScoped<IIncidentRepository, IncidentRepository>();
         services.AddScoped<IContactRepository, ContactRepository>();
         services.AddScoped<IIncidentService, IncidentService>();
+        services.AddScoped<IAccountService, AccountService>();
         return services;
     }
 }
