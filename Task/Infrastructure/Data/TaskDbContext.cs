@@ -12,6 +12,10 @@ public class TaskDbContext:DbContext
     public DbSet<Incident> Incidents { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Account>().HasData(
+            new Account { Id = 3, Name = "TestAccount",IncidentName = "TestCase"}
+        );
+        
         modelBuilder.Entity<Account>()
             .HasIndex(a => a.Name)
             .IsUnique();
