@@ -1,7 +1,6 @@
+using Application.Requests;
 using Application.Services;
 using Domain.Exceptions;
-using Domain.Requests;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers

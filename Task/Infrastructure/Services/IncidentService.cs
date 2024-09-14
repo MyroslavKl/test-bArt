@@ -1,8 +1,8 @@
 ﻿using Application.Contracts;
+using Application.Requests;
 using Application.Services;
 using Domain;
 using Domain.Exceptions;
-using Domain.Requests;
 
 namespace Infrastructure.Services;
 

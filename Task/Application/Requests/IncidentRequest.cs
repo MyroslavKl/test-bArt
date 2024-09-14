@@ -1,4 +1,4 @@
-﻿namespace Domain.Requests;
+﻿namespace Application.Requests;
 
 public class IncidentRequest
 {
